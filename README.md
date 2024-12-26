@@ -1,65 +1,78 @@
-# Zomato-Restaurants-Analysis-using-Excel-Sql-PowerBI-and-Tableau.
-Zomato Restaurant Data Analysis Project
-This project involved analyzing Zomato restaurant data using advanced Excel functions and SQL queries, and creating interactive dashboards using Power BI and Tableau. The objectives of the project were:
+# Zomato Restaurant Data Analysis Project
 
-Building a country map table
-Building a calendar table using the column datekey and adding columns such as year, monthno, monthfullname, quarter(Q1,Q2,Q3,Q4), yearmonth (YYYY-MMM), weekdayno, weekdayname, financialmonth (April = FM1, May= FM2 … March = FM12), and financial quarter (quarters based on financial month)
-Finding the number of restaurants by city and country
-Analyzing restaurant opening trends by year, quarter, and month
-Counting restaurants by average ratings
-Creating buckets for average price ranges and finding out how many restaurants fall in each bucket
-Calculating the percentage of restaurants with table booking and online delivery options
-Developing charts based on cuisines, city, ratings, and other relevant parameters
-To achieve these objectives, the project used various advanced Excel functions such as VLOOKUP, PivotTables, and conditional formatting. SQL queries were executed to extract relevant data from the Zomato dataset. The resulting data was then used to create interactive dashboards using Power BI and Tableau, providing valuable insights into restaurant industry trends related to location, opening trends, ratings, and price ranges.
+## 🌟 Project Overview
 
-The project showcases the use of Excel, SQL, and dashboard tools such as Power BI and Tableau for data analysis and visualization, and provides a valuable resource for anyone interested in learning more about these tools and techniques.
+This project focuses on analyzing Zomato restaurant data using advanced Excel functions, SQL queries, and interactive dashboards created with Power BI and Tableau. The main objectives include:
 
+- 📍 Building a **Country Map Table**
+- 🗓️ Creating a **Calendar Table** with:
+    - Columns such as year, monthno, monthfullname, quarter (e.g., Q1, Q2, Q3, Q4), yearmonth (YYYY-MMM), weekdayno, weekdayname, financialmonth (April = FM1, May = FM2 … March = FM12), and financial quarter.
+- 🌆 Finding the **Number of Restaurants by City and Country**
+- 📊 Analyzing **Restaurant Opening Trends** by year, quarter, and month.
+- ⭐ **Categorizing Restaurants by Average Ratings**
+- 💰 Creating **Price Buckets** and analyzing the number of restaurants in each range.
+- 📋 Calculating the **Percentage of Restaurants Offering Table Booking and Online Delivery**
+- 🍽️ Visualizing data by **Cuisines, City, Ratings**, and other parameters.
 
-Excel
-To achieve the objectives of the Zomato Restaurant Data Analysis project, various advanced Excel functions were used, including:
+This analysis provides actionable insights into restaurant industry trends, including location distribution, operational timelines, service availability, and price segmentation.
 
-SUMIFS and COUNTIFS functions to extract and count data based on specific criteria
-PivotTables and PivotCharts to summarize and analyze data
-Conditional formatting to highlight key insights in the data
-Report connections to link multiple PivotTables and charts to a single slicer, allowing for dynamic filtering of the data
-VLOOKUP and INDEX-MATCH functions to merge data from different tables
-DATE and YEAR functions to extract information from date fields
+## 🛠️ Tools and Techniques
 
+### Excel
 
-SQL
-To extract relevant data from the Zomato dataset, SQL queries were executed using the following keywords:
+Advanced Excel features used in the project:
+- 🔢 **SUMIFS** and **COUNTIFS** for aggregating data based on criteria.
+- 📈 **PivotTables** and **PivotCharts** for summarizing and visualizing data.
+- 🎨 **Conditional Formatting** for highlighting key insights.
+- 🔗 **Report Connections** for linking slicers to multiple PivotTables.
+- 🔍 **VLOOKUP** and **INDEX-MATCH** for merging datasets.
+- 📆 **DATE** and **YEAR** functions for date manipulation.
 
-SELECT to retrieve data from specific columns
-FROM to specify the table to retrieve data from
-WHERE to filter data based on specific conditions
-GROUP BY to group data based on specific columns
-ORDER BY to sort data in ascending or descending order
-HAVING to filter data based on aggregated values
-Window functions, such as ROW_NUMBER, RANK, and DENSE_RANK, to perform calculations on subsets of data
-Date functions, such as DATEADD, DATEDIFF, and DATEPART, to extract information from date fields and perform date calculations
+### SQL
 
+SQL was used to query and prepare data. Key features include:
+- 📋 **SELECT**, **FROM**, **WHERE** for basic querying.
+- 📊 **GROUP BY**, **ORDER BY** for aggregation and sorting.
+- 🛠️ **HAVING** for filtering aggregated results.
+- 🎯 **Window Functions**: **ROW_NUMBER**, **RANK**, **DENSE_RANK** for advanced data manipulation.
+- 📆 **Date Functions**: **DATEADD**, **DATEDIFF**, and **DATEPART** for date-based calculations.
 
-Power BI
-To visualize and analyze the Zomato restaurant data, Power BI was used to create interactive dashboards. The following features and functions were utilized:
+### Power BI
 
-Data modeling using relationships between tables and calculated columns
-Measures and DAX formulas to perform calculations on the data
-Visualizations such as tables, charts, and maps to display the data
-Slicers and filters to enable dynamic filtering of the data
-Drill-through functionality to navigate between different levels of detail in the data
+Power BI dashboards featured:
+- 🔗 **Data Modeling** with table relationships and calculated columns.
+- 📏 **Measures** and **DAX Formulas** for advanced computations.
+- 📊 **Visualizations**: Interactive charts, maps, and tables.
+- 🔍 **Slicers** and **Filters** for dynamic user interactions.
+- 🔄 **Drill-Through** for exploring detailed views.
 
+### Tableau
 
-Tableau
-In addition to Power BI, Tableau was also used to create interactive dashboards for the Zomato restaurant data analysis project. The following features and functions were utilized:
+Tableau dashboards added another layer of interactivity with:
+- 🔀 **Data Blending** for combining data sources.
+- 🔢 **Calculated Fields** for inline computations.
+- 📏 **Dimensions** and **Measures** for organized analysis.
+- 📊 **Visualizations**: Maps, bar charts, and tables.
+- 🎚️ **Filters** and **Parameters** for customizable views.
 
-Data blending to combine data from different tables
-Calculated fields to perform calculations on the data
-Dimensions and measures to organize and analyze the data
-Visualizations such as maps, charts, and tables to display the data
-Filters and parameters to enable dynamic filtering of the data
+## 🔍 Insights and Outcomes
 
+Key takeaways from the analysis include:
+- **Trends by Location**: Distribution of restaurants by city and country.
+- **Opening Trends**: Patterns by year, quarter, and month.
+- **Ratings Analysis**: Grouping restaurants by average ratings.
+- **Price Insights**: Segmentation into price buckets.
+- **Service Availability**: Proportion of restaurants offering table booking and online delivery.
+- **Cuisines and Ratings**: Popularity and ratings of cuisines across locations.
 
+## 🎯 Conclusion
 
+This project highlights the integration of Excel, SQL, Power BI, and Tableau for end-to-end data analysis and visualization. It serves as a practical guide for those seeking to enhance their data analysis skills in the restaurant domain.
 
+## 📂 Repository Structure
 
-
+- `data/`: Contains raw and processed datasets.
+- `sql/`: SQL scripts used for querying and cleaning data.
+- `excel/`: Excel files with advanced functions and PivotTables.
+- `dashboards/`: Power BI and Tableau dashboards.
+- `readme.md`: This documentation.
